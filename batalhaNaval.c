@@ -15,7 +15,7 @@ int main (){
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     };
 
-    char linhaAbc [][10] = {
+    char linhaAbc [][10] = { //--------------------------------------- AQUI
         {A, B, C, D, E, F, G, H, I, J}
     }
     int navioUm [3][1] = { //navio um na vertical ocupando 3 posições no tabuleiro.
