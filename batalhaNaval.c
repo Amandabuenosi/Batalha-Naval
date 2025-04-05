@@ -11,13 +11,25 @@ int main (){
 
    // Inserindo navios na matriz **********************************
     //navio 1 vertical
-    tabuleiro[1][1] = 3;
-    tabuleiro[1][2] = 3;
-    tabuleiro[1][3] = 3;
+    tabuleiro[8][1] = 3;
+    tabuleiro[8][2] = 3;
+    tabuleiro[8][3] = 3;
     //navio 1 horizontal
     tabuleiro[5][8] = 3;
     tabuleiro[6][8] = 3;
     tabuleiro[7][8] = 3;
+    //navio 1 na diagonal primária ↘
+    int tamanho = 3;
+    int inicio_linha = 0, inicio_coluna =7; //coordenadas inicias da matriz
+    for (int i = 0; i < tamanho; i++) {
+        tabuleiro[inicio_linha + i][inicio_coluna + i] = 3; // diagonal ↘
+    };
+    //navio 2 na diagonal secundária ↙
+    int tamanho2 = 3;
+    int inicio_linha2 = 4, inicio_coluna2 =6; //coordenadas inicias da matriz
+    for (int i = 0; i < tamanho; i++) {
+        tabuleiro[inicio_linha2 + i][inicio_coluna2- i] = 3; // diagonal ↙
+    };
 
     
     // Exibições**********************************
