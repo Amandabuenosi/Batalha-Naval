@@ -33,8 +33,7 @@ int main (){
 
     
     // Exibições**********************************
-
-    printf("~~~~~~~~~BATALHA NAVAL~~~~~~~~\n");
+    printf("\n~~~~~~~~~BATALHA NAVAL~~~~~~~~\n");
     printf("  "); // espaço para alinhar o ínicio do nome das Colunas.
 
      
