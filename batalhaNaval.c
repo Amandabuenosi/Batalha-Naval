@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+#define LINHAS= 10;
+#define COLUNAS =10;
+
 int main (){
 
     int tabuleiro[10][10] = {
