@@ -61,7 +61,7 @@ int main (){
         }
     }
 
-    // Aplicar habilidade cone no tabuleiro com origem em (2, 2)
+    // Aplicando habilidade cone no tabuleiro com origem em (2, 2)
     int origemLinha = 2, origemColuna = 2;
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
